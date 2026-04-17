@@ -42,7 +42,7 @@ Total ponderado de registros ativos   ->     3.624
 
 ### Desempenho Contido x Ambientes de Escala Plena (GPU)
 
-Houve enorme dedicação teórica inicial na operação exclusiva sobre processadores simples (x86 e afins), por motivos estritamente concentrados a garantir a soberania no que tange a ausência de datacenters terceirizados ou alocação imodesta de nuvem, mantendo o controle total da privacidade (viabilizando isolamento físico de alto grau). 
+Houve enorme dedicação teórica inicial na operação exclusiva sobre processadores simples (x64 e afins), por motivos estritamente concentrados a garantir a soberania no que tange a ausência de datacenters terceirizados ou alocação imodesta de nuvem, mantendo o controle total da privacidade (viabilizando isolamento físico de alto grau). 
 
 Embora a ORI tenha sido pensada para a soberania integral nativa de CPU, é extremamente notável que ambientes com processadores de amplo paralelismo, particularmente as bases em GPU, apresentem resumos imensuravelmente competentes. Ela é capaz de concorrer frontal e assertivamente contra os maiores modelos brutos de mercado — se devidamente escalada em espaço dimensionado — comprovando metodicamente que a matemática regida por lógica de estado fixa pode ser substancialmente superior à pura força bruta em larga escala de redes convolucionais e transformadores stocásticos padrão.
 
