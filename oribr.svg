@@ -1,0 +1,52 @@
+<svg width="1000" height="400" viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo removido para permitir transparência (checkerboard no IDE) -->
+
+  <!-- Flag Design -->
+  <rect x="50" y="50" width="200" height="130" rx="10" fill="#009C3B"/>
+  <polygon points="150,60 240,115 150,170 60,115" fill="#FFDF00"/>
+  <circle cx="150" cy="115" r="40" fill="#002776"/>
+  
+  <!-- Faixa Branca Centralizada Geométricamente Melhor -->
+  <g transform="translate(150, 115) rotate(-5)">
+    <rect x="-35" y="-3" width="70" height="6" fill="#ffffff"/>
+  </g>
+  <circle cx="150" cy="100" r="3" fill="#ffffff"/>
+  <circle cx="130" cy="125" r="3" fill="#ffffff"/>
+  <circle cx="170" cy="125" r="3" fill="#ffffff"/>
+  
+  <!-- Texts -->
+  <text x="280" y="90" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-weight="bold" font-size="42" fill="#FFFFFF">ORI-DSM</text>
+  <text x="280" y="125" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#A0AAB5">Deterministic State Models · Alpha v0.5</text>
+  
+  <!-- Green Pill -->
+  <rect x="280" y="145" width="160" height="36" rx="18" fill="#238636"/>
+  <text x="360" y="169" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Feito no Brasil</text>
+
+  <!-- 4 Boxes -->
+  <!-- Box 1 -->
+  <rect x="50" y="210" width="210" height="120" rx="12" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+  <text x="155" y="245" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#A0AAB5" text-anchor="middle">Registradores ativos</text>
+  <text x="155" y="285" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="bold" fill="#58A6FF" text-anchor="middle">3.624</text>
+  <text x="155" y="310" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">vs 1B+ (LLMs)</text>
+
+  <!-- Box 2 -->
+  <rect x="280" y="210" width="210" height="120" rx="12" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+  <text x="385" y="245" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#A0AAB5" text-anchor="middle">Acurácia (teste)</text>
+  <text x="385" y="285" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="bold" fill="#3FB950" text-anchor="middle">75.0%</text>
+  <text x="385" y="310" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">base alpha · sem refino</text>
+
+  <!-- Box 3 -->
+  <rect x="510" y="210" width="210" height="120" rx="12" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+  <text x="615" y="245" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#A0AAB5" text-anchor="middle">Memória ativa</text>
+  <text x="615" y="285" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="bold" fill="#D2A8FF" text-anchor="middle">&lt; 12 MB</text>
+  <text x="615" y="310" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">CPU-only · zero GPU</text>
+
+  <!-- Box 4 -->
+  <rect x="740" y="210" width="210" height="120" rx="12" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+  <text x="845" y="245" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#A0AAB5" text-anchor="middle">Tempo refinamento</text>
+  <text x="845" y="285" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="bold" fill="#FF7B72" text-anchor="middle">&lt; 1.5 s</text>
+  <text x="845" y="310" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8B949E" text-anchor="middle">síntese em tempo real</text>
+
+  <!-- Bottom Text -->
+  <text x="500" y="375" font-family="Segoe UI, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8B949E" text-anchor="middle">dados reais · validado sem refino · treino 87.9% · alvo 90%+ na próxima release</text>
+</svg>
